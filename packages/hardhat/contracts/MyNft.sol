@@ -18,9 +18,9 @@ contract MyNFT is ERC721, ERC721URIStorage, Ownable {
     }
 	function mintInitialTokens() internal onlyOwner {
         _mintAndSetURI(0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC, "https://gateway.pinata.cloud/ipfs/Qmd8LpMe2eayE4WJQanLGHrwz7wjq8qMEXyU3dex6TXzc4");
-        _mintAndSetURI(0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC, "https://gateway.pinata.cloud/ipfs/Qmd8LpMe2eayE4WJQanLGHrwz7wjq8qMEXyU3dex6TXzc4");
-		_mintAndSetURI(0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC, "https://gateway.pinata.cloud/ipfs/Qmd8LpMe2eayE4WJQanLGHrwz7wjq8qMEXyU3dex6TXzc4");
-		_mintAndSetURI(0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC, "https://gateway.pinata.cloud/ipfs/Qmd8LpMe2eayE4WJQanLGHrwz7wjq8qMEXyU3dex6TXzc4");
+        _mintAndSetURI(0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC, "https://gateway.pinata.cloud/ipfs/Qma5nNSBsrJQkED5ntmBsm1g7feFwharCpqVNvB1KFZPW3");
+		_mintAndSetURI(0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC, "https://gateway.pinata.cloud/ipfs/QmZhG9iZJdd57f3DiG9m1VeLpWijsNazuvUT8nFbX9vmZ5");
+		_mintAndSetURI(0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC, "https://gateway.pinata.cloud/ipfs/QmcZQPoqnkkMQ9pNUgLEdCLNiHqyYAZY1yETh9y1ySUHVc");
     }
 
     function _mintAndSetURI(address to, string memory uri) internal {
